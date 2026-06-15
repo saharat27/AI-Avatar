@@ -21,12 +21,12 @@ client = genai.Client(api_key=api_key)
 #     r'C:\Users\VICTUS\Desktop\Salvator\AI Avatar\Avatar\normal.png'
 # ]
 Avatar = [
-    "Avatar/open mouth_1.png",
-    "Avatar/open mouth_2.png",
-    "Avatar/normal.png"
+    "Avatar\open mouth_1.png",
+    "Avatar\open mouth_2.png",
+    "Avatar\normal.png"
 ]
 # AVATAR_NORMAL = r'C:\Users\VICTUS\Desktop\Salvator\AI Avatar\Avatar\normal.png'
-AVATAR_NORMAL = "Avatar/normal.png"
+AVATAR_NORMAL = "Avatar\normal.png"
 
 CHAT_DIR = "chats"
 os.makedirs(CHAT_DIR, exist_ok=True)
