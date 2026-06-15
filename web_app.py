@@ -22,7 +22,7 @@ client = genai.Client(api_key=api_key)
 # ]
 Avatar = [
     r"Avatar/open mouth_1.png",
-    r"Avatar/open mouth_2.png",
+    r"Avatar/open mouth_3.png",
     r"Avatar/normal.png"
 ]
 # AVATAR_NORMAL = r'C:\Users\VICTUS\Desktop\Salvator\AI Avatar\Avatar\normal.png'
