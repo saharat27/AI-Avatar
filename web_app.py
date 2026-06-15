@@ -163,7 +163,7 @@ def get_response(messages):
             for m in messages
         ]
         return client.models.generate_content(
-            model="gemini-2.5-flash",
+            model="gemini-3.5-flash",
             contents=contents,
             config={"system_instruction": system_prompt}
         ).text
