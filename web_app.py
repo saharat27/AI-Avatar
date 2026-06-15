@@ -16,14 +16,14 @@ api_key = st.secrets["GEMINI_API_KEY"]
 client = genai.Client(api_key=api_key)
 
 # Avatar = [
-#     r'C:\Users\VICTUS\Desktop\Salvator\AI Avatar\Avatar\open mouth_1.png',
+#     r'C:\Users\VICTUS\Desktop\Salvator\AI Avatar\Avatar\.png',
 #     r'C:\Users\VICTUS\Desktop\Salvator\AI Avatar\Avatar\open mouth_3.png',
 #     r'C:\Users\VICTUS\Desktop\Salvator\AI Avatar\Avatar\normal.png'
 # ]
 Avatar = [
-    "open mouth_1.png",
-    "open mouth_2.png",
-    "normal.png"
+    "Avatar/open mouth_1.png",
+    "Avatar/open mouth_2.png",
+    "Avatar/normal.png"
 ]
 # AVATAR_NORMAL = r'C:\Users\VICTUS\Desktop\Salvator\AI Avatar\Avatar\normal.png'
 AVATAR_NORMAL = "Avatar/normal.png"
